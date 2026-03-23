@@ -1,0 +1,27 @@
+# Build directories and artifacts
+Debug/
+Release/
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.su
+*.list
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# VS Code specific (Optional: Keep launch.json/tasks.json if you want to share debug configs)
+.vscode/
+
+# Keep the CubeMX configuration and Eclipse project files!
+# DO NOT ignore .ioc, .project, or .cproject
